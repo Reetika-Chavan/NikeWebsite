@@ -1,7 +1,9 @@
+import LandingPage from '@/components/LandingPage';
+
+
+export const metadata = {
+  title: "Nike", // Change this to your desired website name
+};
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello
-    </main>
-  )
+  return <LandingPage />;
 }
